@@ -37,4 +37,11 @@ class FizzBuzzTest: XCTestCase {
         XCTAssertEqualObjects(fizzBuzz.convert(5), "Buzz")
         XCTAssertEqualObjects(fizzBuzz.convert(10), "Buzz")
     }
+    
+    func testMultipulOfFifteenToFizzBuzz() {
+        let fizzBuzz = FizzBuzz()
+        
+        XCTAssertEqualObjects(fizzBuzz.convert(15), "FizzBuzz")
+        XCTAssertEqualObjects(fizzBuzz.convert(30), "FizzBuzz")
+    }
 }
