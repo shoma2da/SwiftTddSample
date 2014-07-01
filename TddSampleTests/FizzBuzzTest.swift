@@ -14,5 +14,11 @@ class FizzBuzzTest: XCTestCase {
     func testExistFizzBuzz() {
         XCTAssertNotNil(FizzBuzz())
     }
+    
+    func testEchoNumber() {
+        let fizzBuzz = FizzBuzz()
+        
+        XCTAssertEqualObjects(fizzBuzz.convert(1), "1")
+    }
 
 }
