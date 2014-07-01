@@ -27,5 +27,7 @@ class FizzBuzzTest: XCTestCase {
         let fizzBuzz = FizzBuzz()
         
         XCTAssertEqualObjects(fizzBuzz.convert(3), "Fizz")
+        XCTAssertEqualObjects(fizzBuzz.convert(6), "Fizz")
+        XCTAssertEqualObjects(fizzBuzz.convert(9), "Fizz")
     }
 }
