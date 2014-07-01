@@ -9,5 +9,9 @@
 import Foundation
 
 class FizzBuzz {
+
+    func convert(number:Int) -> String {
+        return "1"
+    }
     
 }
