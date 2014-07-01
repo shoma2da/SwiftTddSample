@@ -11,16 +11,12 @@ import Foundation
 class FizzBuzz {
 
     func convert(number:Int) -> String {
-        if (number % 15 == 0) {
-            return "FizzBuzz"
+        switch number {
+        case _ where number % 15 == 0 : return "FizzBuzz"
+        case _ where number % 5 == 0 : return "Buzz"
+        case _ where number % 3 == 0 : return "Fizz"
+        default : return String(number)
         }
-        if (number % 3 == 0) {
-            return "Fizz"
-        }
-        if (number % 5 == 0) {
-            return "Buzz"
-        }
-        return String(number)
     }
     
 }
