@@ -11,6 +11,9 @@ import Foundation
 class FizzBuzz {
 
     func convert(number:Int) -> String {
+        if (number == 3) {
+            return "Fizz"
+        }
         return String(number)
     }
     
