@@ -10,6 +10,10 @@ import Foundation
 
 class FizzBuzz {
 
+    func getList(upper:Int) -> Array<String> {
+        return ((Array<Int>)(1...upper)).map(convert)
+    }
+
     func convert(number:Int) -> String {
         switch number {
         case _ where number % 15 == 0 : return "FizzBuzz"
