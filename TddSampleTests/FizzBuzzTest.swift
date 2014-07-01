@@ -3,7 +3,6 @@
 //  TddSample
 //
 //  Created by Shoichi Matsuda on 2014/07/02.
-//  Copyright (c) 2014年 shoma2da. All rights reserved.
 //
 
 import XCTest
@@ -43,5 +42,28 @@ class FizzBuzzTest: XCTestCase {
         
         XCTAssertEqualObjects(fizzBuzz.convert(15), "FizzBuzz")
         XCTAssertEqualObjects(fizzBuzz.convert(30), "FizzBuzz")
+    }
+    
+    func testGetList() {
+        let fizzBuzz = FizzBuzz()
+        
+        XCTAssertEqual(fizzBuzz.getList(15).count, 15);
+        XCTAssertEqualObjects(fizzBuzz.getList(15), [
+            "1",
+            "2",
+            "Fizz",
+            "4",
+            "Buzz",
+            "Fizz",
+            "7",
+            "8",
+            "Fizz",
+            "Buzz",
+            "11",
+            "Fizz",
+            "13",
+            "14",
+            "FizzBuzz"
+            ]);
     }
 }
