@@ -13,6 +13,7 @@
 		34BFAB4419635A3200F6C2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BFAB4219635A3200F6C2B2 /* Main.storyboard */; };
 		34BFAB4619635A3200F6C2B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BFAB4519635A3200F6C2B2 /* Images.xcassets */; };
 		34BFAB5219635A3200F6C2B2 /* TddSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFAB5119635A3200F6C2B2 /* TddSampleTests.swift */; };
+		34E82E3219635E5700A6F1B0 /* FizzBuzzTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E82E3119635E5700A6F1B0 /* FizzBuzzTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		34BFAB4B19635A3200F6C2B2 /* TddSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BFAB5019635A3200F6C2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BFAB5119635A3200F6C2B2 /* TddSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TddSampleTests.swift; sourceTree = "<group>"; };
+		34E82E3119635E5700A6F1B0 /* FizzBuzzTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				34BFAB5119635A3200F6C2B2 /* TddSampleTests.swift */,
 				34BFAB4F19635A3200F6C2B2 /* Supporting Files */,
+				34E82E3119635E5700A6F1B0 /* FizzBuzzTest.swift */,
 			);
 			path = TddSampleTests;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BFAB5219635A3200F6C2B2 /* TddSampleTests.swift in Sources */,
+				34E82E3219635E5700A6F1B0 /* FizzBuzzTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +405,7 @@
 				34BFAB5719635A3200F6C2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34BFAB5819635A3200F6C2B2 /* Build configuration list for PBXNativeTarget "TddSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				34BFAB5A19635A3200F6C2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
