@@ -14,6 +14,7 @@
 		34BFAB4619635A3200F6C2B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BFAB4519635A3200F6C2B2 /* Images.xcassets */; };
 		34BFAB5219635A3200F6C2B2 /* TddSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFAB5119635A3200F6C2B2 /* TddSampleTests.swift */; };
 		34E82E3219635E5700A6F1B0 /* FizzBuzzTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E82E3119635E5700A6F1B0 /* FizzBuzzTest.swift */; };
+		34E82E3619635F3B00A6F1B0 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E82E3519635F3B00A6F1B0 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		34BFAB5019635A3200F6C2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BFAB5119635A3200F6C2B2 /* TddSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TddSampleTests.swift; sourceTree = "<group>"; };
 		34E82E3119635E5700A6F1B0 /* FizzBuzzTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzTest.swift; sourceTree = "<group>"; };
+		34E82E3519635F3B00A6F1B0 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				34BFAB4519635A3200F6C2B2 /* Images.xcassets */,
 				34BFAB3D19635A3200F6C2B2 /* TddSample.xcdatamodeld */,
 				34BFAB3919635A3200F6C2B2 /* Supporting Files */,
+				34E82E3519635F3B00A6F1B0 /* FizzBuzz.swift */,
 			);
 			path = TddSample;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				34BFAB4119635A3200F6C2B2 /* ViewController.swift in Sources */,
 				34BFAB3F19635A3200F6C2B2 /* TddSample.xcdatamodeld in Sources */,
 				34BFAB3C19635A3200F6C2B2 /* AppDelegate.swift in Sources */,
+				34E82E3619635F3B00A6F1B0 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
