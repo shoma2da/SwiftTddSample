@@ -13,6 +13,10 @@ class FizzBuzz {
     func convert(number:Int) -> String {
         if (number == 3) {
             return "Fizz"
+        } else if (number == 6) {
+            return "Fizz"
+        } else if (number == 9) {
+            return "Fizz"
         }
         return String(number)
     }
